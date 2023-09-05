@@ -1,12 +1,8 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { Navigation } from './src/navigation';
 
 function App(): JSX.Element {
-    return (
-        <SafeAreaView>
-            <Text>Hello World</Text>
-        </SafeAreaView>
-    );
+    return <Navigation />;
 }
 
 export default App;
